@@ -13,13 +13,14 @@ def main():
 
 	if encodedUUI != "":
 		try:
-
+			uuiBytes = ""
 			# Code to be place here
 
 			# Result
 			# uuiBytes = bytes.fromhex(encodedUUI)
 			#
 			# decodedUUI = uuiBytes[3:14].decode()
+
 
 		except Exception as e:
 			print("Unable to decode UUI string " + str(e));
